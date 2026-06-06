@@ -48,7 +48,7 @@ Canvas is the primary source of module information, announcements, assessment de
 Most workshop datasets can be loaded directly from GitHub into Python using pandas.
 
 Example:
-
+```python
 import pandas as pd
 
 url = "https://raw.githubusercontent.com/YOUR-REPOSITORY-PATH/datasets/retail_sales.csv"
@@ -56,7 +56,7 @@ url = "https://raw.githubusercontent.com/YOUR-REPOSITORY-PATH/datasets/retail_sa
 df = pd.read_csv(url)
 
 df.head()
-
+```
 *Workshop notebooks will provide the appropriate dataset links when required.*
 
 ## Working Practices
